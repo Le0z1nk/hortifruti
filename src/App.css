@@ -1,38 +1,80 @@
-.App {
-  text-align: center;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    background-color: #F66000;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.tituloo {
+    font-weight: 400;
+    margin-left: 5rem;
+    color: #FFFFFF;
+    font-size: 6rem;
+    margin-top: 3rem;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.subtitulo {
+    font-weight: 300;
+    color: #FFFFFF;
+    font-size: 5rem;
+    margin-left: 16rem;
+    position: relative;
+    bottom: 2rem;
 }
-
-.App-link {
-  color: #61dafb;
+main {
+    display: flex;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.inicioMain {
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 4.5rem;
+    margin-left: 5.5rem;
+    margin-top: 3rem;
+}
+.map {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    width: 60rem;
+}
+.imagens {
+    width: 230px;
+}
+.compras {
+background-color: #F7E0CE;
+width: 23rem;
+position: relative;
+bottom: 2rem;
+border-radius: 120px;
+}
+.carrinho {
+    background-color: #D3C5BB;
+    width: 17rem;
+    height: 15rem;
+    border-radius: 80px;
+    margin-top: 4rem;
+    margin-left: 3rem;
+    padding-left: 5rem;
+    padding-top: 3.5rem;
+}
+.textoCarrinho {
+    margin-right: 4rem;
+    font-size: 14px;
+}
+.botoes {
+    background-color: #D3C5BB;
+    display: flex;
+    width: 12rem;
+    height: 2.5rem;
+    margin-top: 4.5rem;
+    margin-left: 5.5rem;
+    border-radius: 80px;
+}
+.mais {
+    margin-left: 1rem;
+    margin-top: 0.2rem;
+}
+.menos {
+    margin-top: 0.2rem;
+    margin-left: 6rem;
 }
